@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Services Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Student Services Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login">Login</button>
+                <button class="btn signup">Sign Up</button>
+            </div>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Find the Perfect Chef for Your New Home!</h2>
+            <p>Helping students live comfortably and focus on their studies.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for chefs...">
+                <button class="btn">Find Your Chef Now</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <i class="fas fa-search"></i>
+                    <h3>Search</h3>
+                    <p>Find the best chefs based on your preferences.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Select</h3>
+                    <p>Choose from top-rated chefs in your area.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Book</h3>
+                    <p>Schedule your chef at a convenient time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="featured-chefs" class="featured-chefs">
+        <div class="container">
+            <h2>Featured Chefs</h2>
+            <div class="chefs">
+                <div class="chef">
+                    <img src="https://via.placeholder.com/150" alt="Chef 1">
+                    <h3>Chef John Doe</h3>
+                    <p>Expert in Italian cuisine</p>
+                    <button class="btn">View Profile</button>
+                </div>
+                <div class="chef">
+                    <img src="https://via.placeholder.com/150" alt="Chef 2">
+                    <h3>Chef Jane Smith</h3>
+                    <p>Specializes in healthy meals</p>
+                    <button class="btn">View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"The service was fantastic! I found a great chef in no time."</p>
+                <span>★★★★★</span>
+                <h3>- Sarah, University Student</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Made my life so much easier. Highly recommended!"</p>
+                <span>★★★★★</span>
+                <h3>- Mark, College Student</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We connect students with reliable and affordable cooks and cleaning services to make their lives easier.</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <form class="newsletter">
+                <input type="email" placeholder="Subscribe to our newsletter">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <p>&copy; 2024 Student Services Hub. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
